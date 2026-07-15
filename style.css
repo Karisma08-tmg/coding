@@ -133,21 +133,17 @@ nav ul li a:hover {
     padding:15px;
     color:#666;
 }
-/* Songs Section */
-
-.song-list{
+.song-list {
     width:90%;
     margin:40px auto;
-}
-
+ }
 .song-list h3{
     color:#6a0dad;
     margin:40px 0 20px;
     text-align:center;
     font-size:28px;
 }
-
-.song-list ul{
+.song-list ul {
     display:flex;
     flex-wrap:wrap;
     justify-content:center;
@@ -156,9 +152,8 @@ nav ul li a:hover {
     padding:0;
     margin-bottom:40px;
 }
-
-.song-list li{
-    width: 150px;px;
+.song-list li {
+    width: 150px;
     background:white;
     padding:15px;
     border-radius:12px;
