@@ -132,16 +132,49 @@ nav ul li a:hover {
     padding:15px;
     color:#666;
 }
-.song-list ul {
+/* Songs Section */
+
+.song-list{
+    width:90%;
+    margin:40px auto;
+}
+
+.song-list h3{
+    color:#6a0dad;
+    margin:40px 0 20px;
+    text-align:center;
+    font-size:28px;
+}
+
+.song-list ul{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:15px;
     list-style:none;
     padding:0;
+    margin-bottom:40px;
 }
-.song-list li {
+
+.song-list li{
+    width:220px;
     background:white;
     padding:15px;
-    margin:10px 0;
     border-radius:12px;
+    text-align:center;
     box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+.song-list li:hover {
+    background:#edd8ff;
+    transform:translateY(-5px);
+}
+.song-list span {
+    display:block;
+    margin-top:5px;
+    color:#8a2be2;
+    font-size:14px;
+    font-style:italic;
 }
 .about-text {
     width:75%;
