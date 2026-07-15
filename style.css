@@ -94,6 +94,11 @@ nav ul li a:hover {
     margin-bottom:40px;
     letter-spacing:1px;
 }
+.song-list span{
+    color:#8a2be2;
+    font-size:14px;
+    font-style:italic;
+}
 .cards {
     display:flex;
     justify-content:center;
