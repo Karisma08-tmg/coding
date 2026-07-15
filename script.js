@@ -1,13 +1,13 @@
 let button = document.getElementById("welcomeBtn");
-button.addEventListener("click", function () {
-    alert("🎵 Welcome to Purple Playlist!\n\nEnjoy exploring your favorite artists and songs.");
+button.onclick = function() {
+    alert("🎵 Welcome to FEEL EVERY BEAT!\n\nEnjoy listening to your favorite artists!");
+}
+document.addEventListener("visibilitychange", function(){
+    if(document.hidden) {
+        document.title = "Come Back 🎵";
 
-});
-
-document.addEventListener("visibilitychange", function () {
-    if (document.hidden) {
-        document.title = "Come back to Purple Playlist 🎵";
-    } else {
-        document.title = "Purple Playlist";
+    }
+    else {
+        document.title = "FEEL EVERY BEAT";
     }
 });
