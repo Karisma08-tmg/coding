@@ -219,8 +219,7 @@ footer {
 }
 footer p {
     font-size:15px;
-}
-/*for mobile*/
+ }
 @media(max-width:768px){
 
 nav {
