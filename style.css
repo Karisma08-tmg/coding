@@ -11,6 +11,19 @@ body {
     background:linear-gradient(to bottom,#f8f2ff,#f1e6ff,#ffffff);
     color:#333;
 }
+.logo {
+    display:flex;
+    align-items:center;
+}
+.logo img {
+    width:45px;
+    height:45px;
+    margin-right:10px;
+}
+.logo h2 {
+    color:white;
+    font-size:28px;
+}
 nav {
     background:#8a2be2;
     color:white;
