@@ -148,6 +148,11 @@ nav ul li a:hover {
 .song-list li {
     padding:4px;
 }
+.song-list span{
+    color:#8a2be2;
+    font-style:italic;
+    font-size:14px;
+}
 .about-text{
     width:75%;
     margin:auto;
